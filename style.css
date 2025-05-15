@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e6f9e6 url('https://www.transparenttextures.com/patterns/green-dust-and-scratches.png');
+  font-family: 'Quicksand', sans-serif;
+  color: #2f4f4f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 100, 0, 0.2);
+  max-width: 700px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #4CAF50;
+}
+
+.message a {
+  display: block;
+  font-size: 1.2em;
+  color: #388e3c;
+  margin: 12px 0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.message a:hover {
+  color: #1b5e20;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #5c5c5c;
+}
